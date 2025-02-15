@@ -42,3 +42,6 @@ if button:
                 create_chart(response_dict["line"],"line")
             if "scatter" in response_dict:
                 create_chart(response_dict["scatter"],"scatter")
+
+st.markdown("---")
+st.markdown("Created by **尹义力**")
