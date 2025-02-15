@@ -2,9 +2,9 @@ attr==0.3.2
 colorama==0.4.6
 ConfigParser==7.1.0
 cryptography==42.0.5
-Cython==3.0.12  # Ensure Cython is installed first
+Cython==3.0.12
 dl==0.1.0
-docutils==0.23.4  # Updated to a compatible version
+docutils==0.21.2
 filelock==3.17.0
 HTMLParser==0.0.2
 ipython==8.12.3
@@ -18,11 +18,10 @@ ordereddict==1.1
 pandas==2.2.3
 Pillow==11.1.0
 protobuf==3.20.3
-pyOpenSSL==25.0.0  # Kept the latest version
+pyOpenSSL==25.0.0
 redis==5.2.1
 Sphinx==8.1.3
 streamlit==1.32.0
-thread==2.0.5
 urllib3_secure_extra==0.1.0
 xmlrpclib==1.0.1
-jnius==1.1.0  # Ensure jnius is installed last
+jnius==1.1.0
