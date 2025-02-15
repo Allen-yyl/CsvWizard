@@ -35,7 +35,7 @@ PROMPT_TEMPLATE = """
 """
 
 def dataframe_agent(df,query):
-    model = ChatOpenAI(api_key=os.getenv("DASHSCOPE_API_KEY"),
+    model = ChatOpenAI(api_key="sk-ea897109bbae495ba168a6fc9f9a35f4",
                        model="qwen-plus",
                        base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
                        temperature=0)
